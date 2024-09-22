@@ -52,4 +52,4 @@ Features:
 
 Deployed Application
 
-You can test the application online at the following link: 
+You can test the application online at the following link: https://weather-app-using-react-nu.vercel.app/
