@@ -1,0 +1,19 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles (optional) */
+body {
+  @apply bg-gradient-to-r from-blue-900 to-indigo-900 font-sans;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+  
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+  
